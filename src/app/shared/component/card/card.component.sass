@@ -1,5 +1,6 @@
+@import "src/assets/styles/abtstracs"
+
 .card
-  background: url("../../../../assets/chicago2.png")
   background-size: cover
   max-width: 296px
   height: 246.88px
@@ -18,7 +19,6 @@
   &::before
     content: ''
     background: rgba(24, 24, 35, 0.53)
-    color: white
     position: absolute
     height: 200%
     width: 200%
@@ -33,22 +33,29 @@
     padding: 15px
     box-sizing: border-box
 
-.card__text
+.card__content
   margin: 0px
-  color: white
+  color: $primary-text-color
   position: relative
   text-align: right
   font-weight: 700
 
-  .title__text
+  @include mobile
+    color: black
+
+  &__title
     font-size: 28px
     margin-bottom: 0px
 
-  .price__text
+  &__price
     font-size: 20px
 
-  .decimal__text
+  &__decimal
     font-size: 16px
+
+.ul__card__list
+  list-style-type: none
+
 
 
 

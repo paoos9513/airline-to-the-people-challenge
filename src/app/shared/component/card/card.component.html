@@ -1,10 +1,14 @@
 
-<div class="card">
-  <div class="card__text">
-    <p class="title__text">{{chicago}}</p>
-    <p class="price__text">{{price}}<span class="decimal__text">.00</span>
+<div class="card" style="background-image: url({{card!.imgURL}});">
+  <div class="card__content">
+    <p class="card__content__title">{{ card!.title }}</p>
+    <p class="card__content__price">From {{ card!.price }}<span class="card__content__decimal">.00</span>
   </p>
+  <P></P>
   </div>
 </div>
+
+
+
 
 

@@ -1,6 +1,11 @@
 
 <div style="background-color: blue;">
-  <app-card></app-card>
+
+  <ul class="ul__card__list">
+    <li *ngFor="let card of cardList">
+      <app-card [card]="card"></app-card>
+    </li>
+  </ul>
 </div>
 
 
