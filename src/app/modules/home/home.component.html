@@ -1,12 +1,24 @@
 
-<div style="background-color: blue;">
+<!-- Banner principal take a rest -->
+<app-banner-with-action> </app-banner-with-action>
 
-  <ul class="ul__card__list">
+<div class="container">
+  <!-- LISTA DE TARJETAS -->
+  <h4>Offers</h4>
+   <ul class="card-container">
     <li *ngFor="let card of cardList">
-      <app-card [card]="card"></app-card>
+      <app-card class="card-box" [card]="card"></app-card>
     </li>
   </ul>
+
+  <!-- Banner our destinations -->
+  <app-banner></app-banner>
+
 </div>
+
+
+
+
 
 
 

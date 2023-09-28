@@ -24,5 +24,7 @@ export class HomeComponent {
       price: 600,
       imgURL: '../../../../assets/image/mire1.png'
     }
-  ]
+  ];
+
+
 }
