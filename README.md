@@ -1,27 +1,68 @@
-# AirlineToThePeople
+# FLYR Web Development Technical Test ✈️
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.0.
+This repository contains my solution for the FLYR web development technical test. Here you will find information about the project and how to run it. 🚀
 
-## Development server
+## Project Description 📋
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+The test involves creating the markup for the proposed design primarily in HTML5, SASS, and on an Angular project. It is focused on evaluating the detail and usability of the implementation, as well as assessing proficiency and knowledge in HTML5, CSS3, SASS, and foundational skills in Angular. 🖥️
 
-## Code scaffolding
+## Requirements 📦
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- The mockup construction should be done within an Angular project.
+- Creation of the mockup structure using Angular components.
+- Styles implemented in SASS.
+- Avoid using libraries for the layout, such as Bootstrap, Materialize, etc.
+- It should be responsive (consider both mobile and desktop designs).
+- Implementation of the functionality to open and close the menu (refer to the prototype).
+- Use the Roboto font as specified.
 
-## Build
+## Prerequisites
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Make sure you have the following installed before proceeding:
 
-## Running unit tests
+- [Node.js](https://nodejs.org/): Node.js is required to run Angular.
+- [npm](https://www.npmjs.com/): npm comes bundled with Node.js and is used to manage project dependencies.
+- [Angular CLI](https://cli.angular.io/): Install Angular CLI globally for easier project management.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Installation 🚧
 
-## Running end-to-end tests
+Follow these steps to set up ⚙️ and run the project:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+1. Clone this repository to your local machine:
 
-## Further help
+```bash
+# Command
+git clone https://github.com/paoos9513/airline-to-the-people-challenge.git
+```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+2. Navigate to the project directory:
+
+```bash
+# Command
+cd airline-to-the-people-challenge.git
+```
+
+3. Install project dependencies:
+
+```bash
+# Command
+npm install
+```
+
+4. Build project for prod:
+
+```bash
+# Command
+ng build 
+```
+
+## Running the Project :running:
+
+Once you've installed all dependencies, you can run the project with the following command:
+
+```bash
+# Command
+ng serve
+```
+
+This will start the Angular development server. To access the project in your browser, open http://localhost:4200/.
