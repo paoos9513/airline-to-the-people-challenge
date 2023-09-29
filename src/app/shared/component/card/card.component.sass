@@ -1,7 +1,11 @@
 @import "src/assets/styles/abtstracs"
 
+\:host
+  width: 100%
+
 .card
   background-size: cover
+  width: 100%
   min-width: 240px
   min-height: 202px
   border-radius: 16px
@@ -12,8 +16,6 @@
   justify-content: flex-end
   align-items: flex-end
   gap: 6px
-  // padding-right: 16px
-  // padding: 3px
   padding-bottom: 2px
   box-sizing: border-box
 
@@ -42,9 +44,6 @@
   text-align: right
   font-weight: 700
   padding-right: 16px
-
-  @include mobile
-    color: black
 
   &__title
     font-size: 25px

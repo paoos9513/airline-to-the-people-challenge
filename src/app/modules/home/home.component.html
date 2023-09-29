@@ -1,25 +1,24 @@
+<header>
+    <app-header></app-header>
+    <app-banner-with-action> </app-banner-with-action>
+</header>
 
-<!-- Banner principal take a rest -->
-<app-banner-with-action> </app-banner-with-action>
+<main>
+    <section class="container">
+        <h4>Offers</h4>
+        <ul class="card-container">
+            <li  *ngFor="let card of cardList">
+                <app-card [card]="card"></app-card>
+            </li>
+        </ul>
+        <aside>
+            <app-banner></app-banner>
+        </aside>
+    </section>
+</main>
 
-<div class="container">
-  <!-- LISTA DE TARJETAS -->
-  <h4>Offers</h4>
-   <ul class="card-container">
-    <li *ngFor="let card of cardList">
-      <app-card class="card-box" [card]="card"></app-card>
-    </li>
-  </ul>
-
-  <!-- Banner our destinations -->
-  <app-banner></app-banner>
-
-</div>
-
-
-
-
-
-
+<footer>
+    <app-footer ></app-footer>
+</footer>
 
 
