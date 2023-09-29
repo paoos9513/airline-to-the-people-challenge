@@ -7,6 +7,6 @@ import {Component, Input} from '@angular/core';
 })
 export class HeaderComponent {
 
-  @Input() iconAirline: string = "../../../assets/logo/logo1.svg"
-  @Input() iconLanguage: string = "../../../assets/icons/language.svg"
+  @Input() iconAirline: string = "assets/logo/logo1.svg"
+  @Input() iconLanguage: string = "assets/icons/language.svg"
 }

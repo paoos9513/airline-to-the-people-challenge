@@ -7,9 +7,9 @@ import {Component, Input} from '@angular/core';
 })
 export class FooterComponent {
 
-  @Input() iconTwitterURL: string = "../../../assets/icons/twitter.svg"
-  @Input() iconFacebookURL: string = "../../../assets/icons/facebook.svg"
-  @Input() iconYoutubeURL: string = "../../../assets/icons/youtube_icon.svg"
-  @Input() iconAirline: string = "../../../assets/logo/logo1.svg"
+  @Input() iconTwitterURL: string = "assets/icons/twitter.svg"
+  @Input() iconFacebookURL: string = "assets/icons/facebook.svg"
+  @Input() iconYoutubeURL: string = "assets/icons/youtube_icon.svg"
+  @Input() iconAirline: string = "assets/logo/logo1.svg"
 
 }
