@@ -12,17 +12,17 @@ export class HomeComponent {
     {
       title: 'Chicago',
       price: 600,
-      imgURL: '../../../../assets/image/chicago2.png'
+      imgURL: 'assets/image/chicago2.png'
     },
     {
       title: 'Porto',
       price: 600,
-      imgURL: '../../../../assets/image/porto1.jpg'
+      imgURL: 'assets/image/porto1.jpg'
     },
     {
       title: 'Chicago',
       price: 600,
-      imgURL: '../../../../assets/image/mire1.png'
+      imgURL: 'assets/image/mire1.png'
     }
   ];
 
